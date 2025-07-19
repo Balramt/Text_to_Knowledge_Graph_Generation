@@ -51,22 +51,18 @@ LLM-based triple generation modules.
 * **Prompts**: [prompts](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/prompts) – Prompt files for LLM-based triple generation.
 
 #### 📊 Baselines – Evaluation Results and LLM Responses
-##### 🔹 Alpaca-LoRA-13B
-* [Alpaca Data](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Alpaca-LoRA-13B)
-  * [llm\_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Alpaca-LoRA-13B/llm_response) – Raw responses + extracted triples
-  * [eval\_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Alpaca-LoRA-13B/evaluation_statistics/baseline_statistics) – Ontology-level + aggregated results
-##### 🔹 Vicuna-13B
-* [Vicuna Data](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Vicuna-13B)
-  * [llm\_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Vicuna-13B/llm_response) – Raw responses + extracted triples
-  * [eval\_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Vicuna-13B/evaluation_statistics/baseline_statistics) – Ontology-level + aggregated results
-##### 🔹 Llama-8B
-* [Llama Data](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Llama-8B)
-  * [llm\_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Llama-8B/llm_response) – Raw responses + extracted triples
-  * [eval\_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Llama-8B/evaluation_statistics) – Ontology-level + aggregated results
-##### 🔹 Mistral-7B
-* [Mistral Data](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B)
-  * [llm\_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B/llm_response) – Raw responses + extracted triples
-  * [eval\_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B/evaluation_statistics) – Ontology-level + aggregated results
+##### 🔹 [Alpaca-LoRA-13B](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Alpaca-LoRA-13B)
+* [llm\_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Alpaca-LoRA-13B/llm_response) – Raw responses + extracted triples
+* [eval\_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Alpaca-LoRA-13B/evaluation_statistics/baseline_statistics) – Ontology-level + aggregated results
+##### 🔹 [Vicuna-13B](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Vicuna-13B)
+* [llm\_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Vicuna-13B/llm_response) – Raw responses + extracted triples
+* [eval\_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Vicuna-13B/evaluation_statistics/baseline_statistics) – Ontology-level + aggregated results
+##### 🔹 [Llama-8B](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Llama-8B)
+* [llm\_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Llama-8B/llm_response) – Raw responses + extracted triples
+* [eval\_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Llama-8B/evaluation_statistics) – Ontology-level + aggregated results
+##### 🔹 [Mistral-7B](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B)
+* [llm\_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B/llm_response) – Raw responses + extracted triples
+* [eval\_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B/evaluation_statistics) – Ontology-level + aggregated results
 ---
 
 ## 🧪 How to Use
