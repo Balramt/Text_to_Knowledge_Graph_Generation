@@ -1,11 +1,9 @@
-## Leveraging Large Language Models for KG Construction and Reasoning
-
-This repository is part of the research project "Leveraging Large Language Models for Knowledge Graph Construction and Reasoning." It provides a benchmark for evaluating the ability of Large Language Models (LLMs) to extract knowledge graph triples from natural language, guided by a predefined ontology. The evaluation focuses on key metrics such as precision, recall, F1-score, ontology adherence, and hallucination rate.
+# Leveraging Large Language Models for KG Construction and Reasoning
+---
+This repository is part of the research project on **Leveraging Large Language Models for KG Construction and Reasoning** using Large Language Models (LLMs). The benchmark aims to evaluate LLMs for extracting knowledge graph triples from natural language while adhering to a given ontology. The focus is on key evaluation metrics such as precision, recall, F1-score, ontology conformance, and hallucination rates.
 ---
 ## 🧠 `src/` – Main Source Directory
-
 The `src` directory contains all the code for running LLMs, generating RDF triples, and evaluating outputs. It is organized into submodules for evaluation and model generation.
-
 ---
 
 ### 📂 [`evaluation`](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/src/evaluation)
