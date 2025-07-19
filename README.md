@@ -30,7 +30,7 @@ LLM-based triple generation modules.
 * **Prompts**: [prompts](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/prompts) – Natural language prompts generated for test samples.
   
 #### 📊 Baselines – Evaluation Results and LLM Responses
-##### 🔹 Alpaca-LoRA-13B
+##### 🔹 Alpaca-LoRA-13B(https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Alpaca-LoRA-13B)
 * [Alpaca Data](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Alpaca-LoRA-13B)
   * [llm\_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Alpaca-LoRA-13B/llm_response) – Raw responses + extracted triples
   * [eval\_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Alpaca-LoRA-13B/evaluation_statistics/baseline_statistics) – Ontology-level + aggregated results
