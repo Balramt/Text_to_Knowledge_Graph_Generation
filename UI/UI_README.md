@@ -77,7 +77,7 @@ The models are loaded via HuggingFace’s `transformers` with `torch_dtype=torch
 
 3. **Click "Run Extraction"**:
 
-   * Extracts triples from the first 10 prompts for faster UI response.
+   * Extracts triples from the input prompts.
 
 4. **Choose Output View**:
 
