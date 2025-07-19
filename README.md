@@ -2,6 +2,26 @@
 ---
 This repository is part of the research project on **Leveraging Large Language Models for KG Construction** using Large Language Models (LLMs). The benchmark aims to evaluate LLMs for extracting knowledge graph triples from natural language while adhering to a given ontology. The focus is on key evaluation metrics such as precision, recall, F1-score, ontology conformance, and hallucination rates.
 
+## 🧪 Example
+
+**🔎 Test Sentence Example:**
+
+```json
+{
+  "id": "ont_music_test_n",
+  "sent": "\"The Loco-Motion\" is a 1962 pop song written by American songwriters Gerry Goffin and Carole King."
+}
+```
+
+**🎼 Ontology Used:** [Music Ontology](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/ontology)
+
+**📈 Output Graph:**
+
+![Graph Example](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/assets/music_ontology_graph_example.png)
+*(This graph illustrates the extracted RDF triples aligned with the ontology)*
+
+---
+
 ---
 ## 🧠 `src/` – Main Source Directory
 The `src` directory contains all the code for running LLMs, generating RDF triples, and evaluating outputs. It is organized into submodules for evaluation and model generation.
