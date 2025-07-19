@@ -9,6 +9,7 @@ This repository contains benchmark datasets, ontology files, LLM-generated respo
 ---
 
 ### 🗂️ `wikidata_tekgen` – Wikidata-TekGen Dataset
+* [Wikidata-TekGen Dataset](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata)
 
 * **Ontologies (10)**: [ontologies](data/wikidata/ontologies) – Ontology files used for triple validation.
 * **Ground Truth**: [ground\_truth](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/ground_truth) – Gold standard triples for evaluation.
