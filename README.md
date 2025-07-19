@@ -8,7 +8,7 @@ This repository contains benchmark datasets, ontology files, LLM-generated respo
 
 ---
 
-### 🗂️ `wikidata_tekgen` – Wikidata-TekGen Dataset
+### 🗂️ `wikidata_tekgen` – Wikidata-TekGen
 * [Wikidata-TekGen](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata)
 
 * **Ontologies (10)**: [ontologies](data/wikidata/ontologies) – Ontology files used for triple validation.
@@ -47,7 +47,7 @@ This repository contains benchmark datasets, ontology files, LLM-generated respo
 
 ---
 
-### 🗂️ `dbpedia_webnlg` – [DBpedia Dataset](data/dbpedia)
+### 🗂️ `dbpedia_webnlg`
 * [DBpedia-Webnlg](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia)
 
 * **Ontologies (19)**: [ontologies](data/dbpedia/ontologies) – DBpedia ontologies for triple evaluation.
