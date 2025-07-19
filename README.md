@@ -17,7 +17,7 @@ The `data` folder contains benchmark datasets and prompt files. There are two pr
 
 Each dataset has associated prompt files in `.jsonl` format, located here:
 
-* **Prompts**: [`data/wikidata`]([data/wikidata/input_prompts/cot_prompts](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/prompts))
+* **Prompts**: [`data/wikidata`](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/prompts)
 * Sample File: [`ont_1_movie_prompts_improved.jsonl`](data/wikidata/input_prompts/cot_prompts/ont_1_movie_prompts_improved.jsonl)
 
 ---
