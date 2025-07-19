@@ -168,5 +168,3 @@ Please ensure compliance with individual model licenses (e.g., Meta’s LLaMA, M
 * [Dash by Plotly](https://dash.plotly.com/)
 
 ---
-
-Let me know if you want image previews or `requirements.txt` included!
