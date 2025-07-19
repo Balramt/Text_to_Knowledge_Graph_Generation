@@ -5,10 +5,8 @@ This repository contains benchmark datasets, ontology files, LLM-generated respo
 ---
 
 ## 📦 Data Structure Overview
-
 ---
-
-### 🗂️ `wikidata_tekgen` – Wikidata-TekGen
+### 🗂️ `wikidata_tekgen`
 * [Wikidata-TekGen](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata)
 
 * **Ontologies (10)**: [ontologies](data/wikidata/ontologies) – Ontology files used for triple validation.
