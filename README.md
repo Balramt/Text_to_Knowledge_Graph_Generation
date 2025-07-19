@@ -1,7 +1,6 @@
-# 🧠 Text-to-Triple Dataset and Evaluation Resources
+# Leveraging Large Language Models for KG Construction and Reasoning
 
-This repository contains benchmark datasets, ontology files, LLM-generated responses, and evaluation results used for extracting and evaluating RDF triples from text using large language models.
-
+This repository is part of the research project on **Leveraging Large Language Models for KG Construction and Reasoning** using Large Language Models (LLMs). The benchmark aims to evaluate LLMs for extracting knowledge graph triples from natural language while adhering to a given ontology. The focus is on key evaluation metrics such as precision, recall, F1-score, ontology conformance, and hallucination rates.
 ---
 ## 🧠 `src/` – Main Source Directory
 
