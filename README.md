@@ -25,10 +25,10 @@ Scripts to evaluate the triples extracted from LLM responses.
 
 LLM-based triple generation modules.
 
-* 🔹 **[LLaMA](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/src/llm_models/llama_generator.py)**
+* 🔹 **[LLaMA](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/src/llm_models/Llama3_with_batch_without_quant.ipynb)**
   Uses LLaMA to generate text and extract triples from structured prompts.
 
-* 🔹 **[Mistral](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/src/llm_models/mistral_generator.py)**
+* 🔹 **[Mistral](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/src/llm_models/Mistral_Batch.ipynb)**
   Parallel implementation using Mistral model to generate and parse triples from prompts.
 
 ---
