@@ -11,40 +11,38 @@ This repository contains benchmark datasets, ontology files, LLM-generated respo
 ### 🗂️ `wikidata_tekgen` – Wikidata-TekGen Dataset
 
 * **Ontologies (10)**: [ontologies](data/wikidata/ontologies) – Ontology files used for triple validation.
-* **Ground Truth**: [ground\_truth](data/wikidata/ground_truth) – Gold standard triples for evaluation.
-* **Prompts**: [prompts](data/wikidata/input_prompts/cot_prompts) – Natural language prompts generated for test samples.
+* **Ground Truth**: [ground\_truth]([data/wikidata/ground_truth](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/ground_truth)) – Gold standard triples for evaluation.
+* **Prompts**: [prompts]([data/wikidata/input_prompts/cot_prompts](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/prompts)) – Natural language prompts generated for test samples.
 
 #### 📊 Baselines – Evaluation Results and LLM Responses
 
 ##### 🔹 Alpaca-LoRA-13B
 
-* [Alpaca Data](data/wikidata/baselines/Alpaca-LoRA-13B)
+* [Alpaca Data]([data/wikidata/baselines/Alpaca-LoRA-13B](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Alpaca-LoRA-13B))
 
-  * [llm\_responses](data/wikidata/baselines/Alpaca-LoRA-13B/llm_responses) – Raw responses + extracted triples
-  * [eval\_metrics](data/wikidata/baselines/Alpaca-LoRA-13B/eval_metrics) – Ontology-level + aggregated results
+  * [llm\_responses]([data/wikidata/baselines/Alpaca-LoRA-13B/llm_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Alpaca-LoRA-13B/llm_response)) – Raw responses + extracted triples
+  * [eval\_metrics]([data/wikidata/baselines/Alpaca-LoRA-13B/eval_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Alpaca-LoRA-13B/evaluation_statistics/baseline_statistics)) – Ontology-level + aggregated results
 
 ##### 🔹 Vicuna-13B
 
-* [Vicuna Data](data/wikidata/baselines/Vicuna-13B)
+* [Vicuna Data]([data/wikidata/baselines/Vicuna-13B](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Vicuna-13B))
 
-  * [llm\_responses](data/wikidata/baselines/Vicuna-13B/llm_responses) – Raw responses + extracted triples
-  * [eval\_metrics](data/wikidata/baselines/Vicuna-13B/eval_metrics) – Ontology-level + aggregated results
+  * [llm\_responses]([data/wikidata/baselines/Vicuna-13B/llm_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Vicuna-13B/llm_response)) – Raw responses + extracted triples
+  * [eval\_metrics]([data/wikidata/baselines/Vicuna-13B/eval_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Vicuna-13B/evaluation_statistics/baseline_statistics)) – Ontology-level + aggregated results
 
 ##### 🔹 Llama-8B
 
-* [Llama Data](data/wikidata/baselines/Alpaca-LoRA-13B)
+* [Llama Data]([data/wikidata/baselines/Alpaca-LoRA-13B](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Llama-8B))
 
-  * [llm\_responses](data/wikidata/baselines/Alpaca-LoRA-13B/llm_responses) – Raw responses + extracted triples
-  *  [llm\_responses](data/wikidata/baselines/Alpaca-LoRA-13B/llm_responses) – Raw responses + extracted triples
-  * [eval\_metrics](data/wikidata/baselines/Alpaca-LoRA-13B/eval_metrics) – Ontology-level + aggregated results
+  * [llm\_responses]([data/wikidata/baselines/Alpaca-LoRA-13B/llm_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Llama-8B/llm_response)) – Raw responses + extracted triples
+  * [eval\_metrics]([data/wikidata/baselines/Alpaca-LoRA-13B/eval_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Llama-8B/evaluation_statistics)) – Ontology-level + aggregated results
 
 ##### 🔹 Mistral-7B
 
-* [Mistral Data](data/wikidata/baselines/Alpaca-LoRA-13B)
+* [Mistral Data]([data/wikidata/baselines/Alpaca-LoRA-13B](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Mistral-7B))
 
-  * [llm\_responses](data/wikidata/baselines/Alpaca-LoRA-13B/llm_responses) – Raw responses + extracted triples
-  *  [llm\_responses](data/wikidata/baselines/Alpaca-LoRA-13B/llm_responses) – Raw responses + extracted triples
-  * [eval\_metrics](data/wikidata/baselines/Alpaca-LoRA-13B/eval_metrics) – Ontology-level + aggregated results
+  * [llm\_responses]([data/wikidata/baselines/Alpaca-LoRA-13B/llm_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Mistral-7B/llm_response)) – Raw responses + extracted triples
+  * [eval\_metrics]([data/wikidata/baselines/Alpaca-LoRA-13B/eval_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Mistral-7B/evaluation_statistics)) – Ontology-level + aggregated results
 
 ---
 
