@@ -74,9 +74,9 @@ LLM-based triple generation modules.
 ---
 
 ### 🗂️ `dbpedia_webnlg`
-* [DBpedia-Webnlg](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/ontology)
+* [DBpedia-Webnlg](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia)
 
-* **Ontologies (19)**: [ontologies](data/dbpedia/ontologies) – DBpedia ontologies for triple evaluation.
+* **Ontologies (19)**: [ontologies](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/ontology) – DBpedia ontologies for triple evaluation.
 * **Ground Truth**: [ground\_truth](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/ground_truth) – Gold standard triple data.
 * **Prompts**: [prompts](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/prompts) – Prompt files for LLM-based triple generation.
 
