@@ -1,51 +1,103 @@
-# LLM Triple Extraction Pipeline (LLaMA 3)
+# 🧠 Text-to-Triple Dataset and Evaluation Resources
 
-This repository runs a pipeline to generate (subject, relation, object) triples from natural language prompts using the **Meta-LLaMA-3-8B** model. The generated triples are later evaluated using ontology-based or contrastive reasoning tools.
-
----
-
-## 📁 Data
-
-The `data` folder contains benchmark datasets and prompt files. There are two primary datasets:
-
-* **wikidata\_tekgen**: A subset of TekGen adapted to Wikidata-style triples.
-* **dbpedia\_webnlg**: A version of WebNLG adapted for DBpedia-style entities.
+This repository contains benchmark datasets, ontology files, LLM-generated responses, and evaluation results used for extracting and evaluating RDF triples from text using large language models.
 
 ---
 
-## 📂 Prompt Files
-
-Each dataset has associated prompt files in `.jsonl` format, located here:
-
-* **Prompts**: [`data/wikidata`](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/prompts)
-* Sample File: [`ont_1_movie_prompts_improved.jsonl`](data/wikidata/input_prompts/cot_prompts/ont_1_movie_prompts_improved.jsonl)
+## 📦 Data Structure Overview
 
 ---
 
-## 📤 Output
+### 🗂️ `wikidata_tekgen` – Wikidata-TekGen Dataset
 
-Model outputs (triples) are saved in JSONL format with the following structure:
+* **Ontologies (10)**: [ontologies](data/wikidata/ontologies) – Ontology files used for triple validation.
+* **Ground Truth**: [ground\_truth](data/wikidata/ground_truth) – Gold standard triples for evaluation.
+* **Prompts**: [prompts](data/wikidata/input_prompts/cot_prompts) – Natural language prompts generated for test samples.
 
-```json
-{"id": "example_1", "triples": [{"sub": "Titanic", "rel": "directed", "obj": "James Cameron"}]}
+#### 📊 Baselines – Evaluation Results and LLM Responses
+
+##### 🔹 Alpaca-LoRA-13B
+
+* [Alpaca Data](data/wikidata/baselines/Alpaca-LoRA-13B)
+
+  * [llm\_responses](data/wikidata/baselines/Alpaca-LoRA-13B/llm_responses) – Raw responses + extracted triples
+  * [eval\_metrics](data/wikidata/baselines/Alpaca-LoRA-13B/eval_metrics) – Ontology-level + aggregated results
+
+##### 🔹 Vicuna-13B
+
+* [Vicuna Data](data/wikidata/baselines/Vicuna-13B)
+
+  * [llm\_responses](data/wikidata/baselines/Vicuna-13B/llm_responses) – Raw responses + extracted triples
+  * [eval\_metrics](data/wikidata/baselines/Vicuna-13B/eval_metrics) – Ontology-level + aggregated results
+
+##### 🔹 Llama-8B
+
+* [Llama Data](data/wikidata/baselines/Alpaca-LoRA-13B)
+
+  * [llm\_responses](data/wikidata/baselines/Alpaca-LoRA-13B/llm_responses) – Raw responses + extracted triples
+  *  [llm\_responses](data/wikidata/baselines/Alpaca-LoRA-13B/llm_responses) – Raw responses + extracted triples
+  * [eval\_metrics](data/wikidata/baselines/Alpaca-LoRA-13B/eval_metrics) – Ontology-level + aggregated results
+
+##### 🔹 Mistral-7B
+
+* [Mistral Data](data/wikidata/baselines/Alpaca-LoRA-13B)
+
+  * [llm\_responses](data/wikidata/baselines/Alpaca-LoRA-13B/llm_responses) – Raw responses + extracted triples
+  *  [llm\_responses](data/wikidata/baselines/Alpaca-LoRA-13B/llm_responses) – Raw responses + extracted triples
+  * [eval\_metrics](data/wikidata/baselines/Alpaca-LoRA-13B/eval_metrics) – Ontology-level + aggregated results
+
+---
+
+### 🗂️ `dbpedia_webnlg` – [DBpedia Dataset](data/dbpedia)
+
+* **Ontologies (19)**: [ontologies](data/dbpedia/ontologies) – DBpedia ontologies for triple evaluation.
+* **Ground Truth**: [ground\_truth](data/dbpedia/ground_truth) – Gold standard triple data.
+* **Prompts**: [prompts](data/dbpedia/input_prompts/cot_prompts) – Prompt files for LLM-based triple generation.
+
+#### 📊 Baselines – Evaluation Results and LLM Responses
+
+##### 🔹 Alpaca-LoRA-13B
+
+* [Alpaca Data](data/dbpedia/baselines/Alpaca-LoRA-13B)
+
+  * [llm\_responses](data/dbpedia/baselines/Alpaca-LoRA-13B/llm_responses)
+  * [eval\_metrics](data/dbpedia/baselines/Alpaca-LoRA-13B/eval_metrics)
+
+##### 🔹 Vicuna-13B
+
+* [Vicuna Data](data/dbpedia/baselines/Vicuna-13B)
+
+  * [llm\_responses](data/dbpedia/baselines/Vicuna-13B/llm_responses)
+  * [eval\_metrics](data/dbpedia/baselines/Vicuna-13B/eval_metrics)
+
+---
+
+## 🧪 How to Use
+
+This structure supports:
+
+* Reproducing experiments using the provided prompts and ground truths.
+* Comparing LLM outputs against baseline evaluations.
+* Loading ontologies and results into custom tools or visualizers.
+
+---
+
+## 📁 Folder Tree (Example)
+
 ```
-
-* Output folder: [`data/wikidata/response_run4/Llama3`](data/wikidata/response_run4/Llama3)
-
----
-
-## ▶️ Running the Script
-
-Edit the paths and run:
-
-```bash
-python generate_llama3_triples.py
+data/
+├── dbpedia/
+│   ├── ontologies/
+│   ├── ground_truth/
+│   ├── input_prompts/
+│   └── baselines/
+│       ├── Alpaca-LoRA-13B/
+│       └── Vicuna-13B/
+└── wikidata/
+    ├── ontologies/
+    ├── ground_truth/
+    ├── input_prompts/
+    └── baselines/
+        ├── Alpaca-LoRA-13B/
+        └── Vicuna-13B/
 ```
-
-Script is located at:
-
-* [`generate_llama3_triples.py`](generate_llama3_triples.py)
-
----
-
-Let me know if you'd like help generating links dynamically (for GitHub Pages, Colab, or external sources), or want to add a section for evaluation notebooks (`.ipynb`).
