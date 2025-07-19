@@ -3,7 +3,35 @@
 This repository contains benchmark datasets, ontology files, LLM-generated responses, and evaluation results used for extracting and evaluating RDF triples from text using large language models.
 
 ---
+## 🧠 `src/` – Main Source Directory
 
+The `src` directory contains all the code for running LLMs, generating RDF triples, and evaluating outputs. It is organized into submodules for evaluation and model generation.
+
+---
+
+### 📂 [`evaluation`](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/src/evaluation)
+
+Scripts to evaluate the triples extracted from LLM responses.
+
+* 📘 **[Baseline Evaluation](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/src/evaluation/Baseline_evaluation.ipynb)**
+  Evaluates precision, recall, F1, and hallucinations (ontology, subject, object, relation) using raw LLM outputs.
+
+* 🛠️ **[Improvised Evaluation](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/src/evaluation/Evaluation_improvised.ipynb)**
+  More robust evaluation that cleans special characters and symbols for accurate matching.
+
+---
+
+### 🤖 [`llm_models`](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/src/llm_models)
+
+LLM-based triple generation modules.
+
+* 🔹 **[LLaMA](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/src/llm_models/llama_generator.py)**
+  Uses LLaMA to generate text and extract triples from structured prompts.
+
+* 🔹 **[Mistral](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/src/llm_models/mistral_generator.py)**
+  Parallel implementation using Mistral model to generate and parse triples from prompts.
+
+---
 ## 📦 Data Structure Overview
 ---
 ### 🗂️ `wikidata_tekgen`
