@@ -1,5 +1,6 @@
-# Leveraging Large Language Models for KG Construction and Reasoning
-This repository is part of the research project "Leveraging Large Language Models for Knowledge Graph Construction and Reasoning." It provides a benchmark for evaluating the ability of Large Language Models (LLMs) to extract knowledge graph triples from natural language, guided by a predefined ontology. The evaluation focuses on key metrics such as precision, recall, F1-score, ontology adherence, and hallucination rate. 
+## Leveraging Large Language Models for KG Construction and Reasoning
+
+This repository is part of the research project "Leveraging Large Language Models for Knowledge Graph Construction and Reasoning." It provides a benchmark for evaluating the ability of Large Language Models (LLMs) to extract knowledge graph triples from natural language, guided by a predefined ontology. The evaluation focuses on key metrics such as precision, recall, F1-score, ontology adherence, and hallucination rate.
 ---
 ## 🧠 `src/` – Main Source Directory
 
