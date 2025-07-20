@@ -11,7 +11,6 @@ This project provides an **interactive web interface** built with **Dash** for g
 * **Knowledge Graph Visualization**: Displays an interactive graph with entities and relationships using `dash_cytoscape`.
 * **Table View**: Optionally view the extracted triples in a paginated table.
 * **Interactive Elements**: Click nodes and edges to explore details of entities and relationships.
-
 ---
 
 ## 📦 Requirements
@@ -21,8 +20,6 @@ Install dependencies using pip:
 ```bash
 pip install torch transformers dash dash-bootstrap-components dash-cytoscape nltk jsonlines
 ```
-
----
 
 ## ⚙️ How It Works
 
@@ -120,7 +117,6 @@ The models are loaded via HuggingFace’s `transformers` with `torch_dtype=torch
 * **View Switch**: Toggle between Table and Graph modes.
 * **Graph Panel**: Interactive knowledge graph with node/edge click handling.
 * **Status Panel**: Displays process summary and errors.
-
 ---
 
 ## ▶️ Launching the App
@@ -170,7 +166,6 @@ http://0.0.0.0:8070/
 
 This project is for **research and educational purposes only**.
 Please ensure compliance with individual model licenses (e.g., Meta’s LLaMA, Mistral AI).
-
 ---
 
 ## 🙏 Acknowledgements
@@ -180,4 +175,3 @@ Please ensure compliance with individual model licenses (e.g., Meta’s LLaMA, M
 * [Mistral AI](https://mistral.ai/)
 * [Dash by Plotly](https://dash.plotly.com/)
 
----
