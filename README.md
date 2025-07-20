@@ -80,35 +80,60 @@ LLM-based triple generation modules.
 * [llm\_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B/llm_response) – Raw responses + extracted triples
 * [eval\_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B/evaluation_statistics) – Ontology-level + aggregated results
 ---
-
-## 🧪 How to Use
-
-This structure supports:
-
-* Reproducing experiments using the provided prompts and ground truths
-* Comparing LLM outputs against baseline evaluations
-* Loading ontologies and results into custom tools or visualizers
-
----
-
 ## 📁 Folder Tree (Example)
+```
+.
+├── UI/
+│   └── KG_Visualization.PNG
+│   ├── Tesct2KG_UI.ipynb
+|   ├── UI_Readme.md
+├── src/
+│   ├── evaluation/
+│   │   ├── Baseline_evaluation.ipynb
+│   │   └── Evaluation_improvised.ipynb
+│   └── llm_models/
+│       ├── Llama3_with_batch_without_quant.ipynb
+│       └── Mistral_Batch.ipynb
+│
+└── data/
+    ├── dbpedia/
+    │   ├── ontology/
+    │   ├── ground_truth/
+    │   ├── prompts/
+    │   └── baselines/
+    │       ├── Alpaca-LoRA-13B/
+    │       │   ├── llm_response/
+    │       │   └── evaluation_statistics/
+    │       │       └── baseline_statistics/
+    │       ├── Vicuna-13B/
+    │       │   ├── llm_response/
+    │       │   └── evaluation_statistics/
+    │       │       └── baseline_statistics/
+    │       ├── Llama-8B/
+    │       │   ├── llm_response/
+    │       │   └── evaluation_statistics/
+    │       └── Mistral-7B/
+    │           ├── llm_response/
+    │           └── evaluation_statistics/
+    │
+    └── wikidata/
+        ├── ontology/
+        ├── ground_truth/
+        ├── prompts/
+        └── baselines/
+            ├── Alpaca-LoRA-13B/
+            │   ├── llm_response/
+            │   └── evaluation_statistics/
+            │       └── baseline_statistics/
+            ├── Vicuna-13B/
+            │   ├── llm_response/
+            │   └── evaluation_statistics/
+            │       └── baseline_statistics/
+            ├── Llama-8B/
+            │   ├── llm_response/
+            │   └── evaluation_statistics/
+            └── Mistral-7B/
+                ├── llm_response/
+                └── evaluation_statistics/
 
 ```
-data/
-├── dbpedia/
-│   ├── ontologies/
-│   ├── ground_truth/
-│   ├── input_prompts/
-│   └── baselines/
-│       ├── Alpaca-LoRA-13B/
-│       └── Vicuna-13B/
-└── wikidata/
-    ├── ontologies/
-    ├── ground_truth/
-    ├── input_prompts/
-    └── baselines/
-        ├── Alpaca-LoRA-13B/
-        └── Vicuna-13B/
-```
-
----
