@@ -75,7 +75,7 @@ The models are loaded via HuggingFace’s `transformers` with `torch_dtype=torch
 2. **Upload Ontology File**
 
    * Upload the ontology file corresponding to the domain of the prompt.
-   * **Example**: [Film Ontology](data/dbpedia/ontology/19_film_ontology.json)
+   * **Example**: [Film Ontology](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/data/dbpedia/ontology/19_film_ontology.json)
 
 3. **Select a Model**
 
