@@ -1,4 +1,4 @@
-# 🧠 Text to RDF Triple Generator and Knowledge Graph using LLMs (LLaMA 3 / Mistral)
+# 🧠 UI for Text to Knowledge Graph Generator using LLMs (LLaMA 3 / Mistral)
 
 This project provides an **interactive web interface** built with **Dash** for generating RDF-like triples from user-uploaded text prompts using large language models (**LLaMA 3** and **Mistral**). It also offers a **dynamic knowledge graph visualization** of the extracted triples using **Cytoscape**.
 
