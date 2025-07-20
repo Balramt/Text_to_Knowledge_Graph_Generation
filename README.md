@@ -80,14 +80,20 @@ LLM-based triple generation modules.
 * [llm\_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B/llm_response) – Raw responses + extracted triples
 * [eval\_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B/evaluation_statistics) – Ontology-level + aggregated results
 
-## Wilcoxon Signed-Rank Test: LLM Comparison on improvised and baseline
+## Wilcoxon Signed-Rank Test: LLM Comparison on Improvised and Baseline
 
-We conducted pairwise statistical significance tests using the **Wilcoxon Signed-Rank Test** to compare the performance of large language models (LLMs) — **LLama 3-8B**, **Mistral**, and baselines models **Alpaca-LoRA-13B**, and **Vicuna** — on two datasets: **Wikidata** and **DBpedia**. 
+We conducted pairwise statistical significance tests using the **Wilcoxon Signed-Rank Test** to compare the performance of large language models (LLMs) — **LLama 3-8B**, **Mistral**, and baseline models **Alpaca-LoRA-13B**, and **Vicuna** — on two datasets: **Wikidata** and **DBpedia**. 
 
-Two types of evaluations were used: **Improvised Evaluation** and **Baseline Evaluation**
+Two types of evaluations were used: 
+- **[Improvised Evaluation](#)** – based on sample-wise F1 scores.
+- **[Baseline Evaluation](#)** – based on per-domain average F1 scores.
+
+👉 **You can view the full evaluation script here**: [`wilcoxon_eval.py`](path/to/wilcoxon_eval.py)
+
 ---
-We can clearly see that **LLama 3-8B** and **Mistral** consistently outperform the baseline models **Alpaca-LoRA-13B** and **Vicuna** across both evaluation methods.
----
+
+We can clearly see that **LLama 3-8B** and **Mistral** consistently outperform the baseline models **Alpaca-LoRA-13B** and **Vicuna** across both evaluation methods on **both datasets**.
+
 ## 📁 Folder Tree (Example)
 ```
 .
