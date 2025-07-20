@@ -13,7 +13,7 @@ This repository is part of the research project on **Leveraging Large Language M
 }
 ```
 
-**🎼 Ontology Used:** [Music Ontology](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/ontology)
+**🎼 Ontology Used:** [Music Ontology](data/dbpedia/ontology/19_film_ontology.json)
 
 **📈 Output Graph:**
 
