@@ -8,12 +8,12 @@ This repository is part of the research project on **Leveraging Large Language M
 
 ```json
 {
-  "id": "ont_music_test_n",
+  "id": "ont_film_test_1",
   "sent":"Super Capers is a 98 minute English movie that was distributed by Roadside Attractions and Lionsgate. It was directed by Ray Griggs and edited by Stacy Katzman.The budget was $2,000,000."
 }
 ```
 
-**🎼 Ontology Used:** [Music Ontology](data/dbpedia/ontology/19_film_ontology.json)
+**🎼 Ontology Used:** [Film Ontology](data/dbpedia/ontology/19_film_ontology.json)
 
 **📈 Output Graph:**
 
