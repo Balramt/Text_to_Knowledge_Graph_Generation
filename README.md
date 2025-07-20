@@ -79,6 +79,23 @@ LLM-based triple generation modules.
 ##### 🔹 [Mistral-7B](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B)
 * [llm\_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B/llm_response) – Raw responses + extracted triples
 * [eval\_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B/evaluation_statistics) – Ontology-level + aggregated results
+
+## 📊 Wilcoxon Signed-Rank Test: LLM Comparison on Wikidata and DBpedia
+
+We conducted pairwise statistical significance tests using the **Wilcoxon Signed-Rank Test** to compare the performance of large language models (LLMs) — **LLama 3-8B**, **Mistral**, **Alpaca-LoRA-13B**, and **Vicuna** — on two datasets: **Wikidata** and **DBpedia**. 
+
+Two types of evaluations were used:
+- **Improvised Evaluation**: Sample-wise F1 scores
+- **Baseline Evaluation**: Per-domain average F1 scores
+
+---
+
+### 📁 Dataset: [Wikidata](#)
+We can clearly see that **LLama 3-8B** and **Mistral** consistently outperform the baseline models **Alpaca-LoRA-13B** and **Vicuna** across both evaluation methods.
+
+#### 🔍 Wilcoxon Signed-Rank Test on Improvised Evaluation (Wikidata)
+
+
 ---
 ## 📁 Folder Tree (Example)
 ```
@@ -89,19 +106,21 @@ LLM-based triple generation modules.
 |   ├── UI_Readme.md
 ├── src/
 │   ├── evaluation/
-│   │   ├── Baseline_evaluation.ipynb
+│   │   └── Baseline_evaluation.ipynb
 │   │   └── Evaluation_improvised.ipynb
 │   └── llm_models/
-│       ├── Llama3_with_batch_without_quant.ipynb
+│       └── Llama3_with_batch_without_quant.ipynb
 │       └── Mistral_Batch.ipynb
 │
 ├── evaluation_table/
 |   ├──dbpedia_ebaluation_result/
 |   |  └── Evaluation_Table_Improved.md
 |   |  └── Evaluation_Table_baseline.md
+|   |  └── wilcoxon_rank_test_dbpedia.ipynb
 |   ├──dbpedia_ebaluation_result/
 |      └── Evaluation_Table_Improved.md
-|      └── Evaluation_Table_baseline.md  
+|      └── Evaluation_Table_baseline.md
+|      └── wilcoxon_rank_test_wikidata.ipynb  
 |
 └── data/
     ├── dbpedia/
