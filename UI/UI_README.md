@@ -67,26 +67,32 @@ The models are loaded via HuggingFace’s `transformers` with `torch_dtype=torch
    * Format: `.jsonl`
    * Each line should look like:
 
-     ```json
-     {"id": "sample_001", "prompt": "The movie Titanic was directed by James Cameron."}
-     ```
+    ```json
+{
+  "id": "ont_film_test_1",
+  "sent":"Super Capers is a 98 minute English movie that was distributed by Roadside Attractions and Lionsgate. It was directed by Ray Griggs and edited by Stacy Katzman.The budget was $2,000,000."
+}
+```
 
-2. **Select a Model**:
+2. **Upload Ontology File**: Please upload the ontology corresponding to the domain of the prompt.[Film Ontology](data/dbpedia/ontology/19_film_ontology.json)
+
+3. **Select a Model**:
 
    * LLaMA 3 or Mistral 7B
 
-3. **Click "Run Extraction"**:
+4. **Click "Run Extraction"**:
 
    * Extracts triples from the input prompts.
 
-4. **Choose Output View**:
+5. **Choose Output View**:
 
    * **Table View**: Shows all extracted triples in a table.
    * **Graph View**: Renders an interactive RDF-style knowledge graph.
 
-5. **Interact with the Graph**:
+6. **Interact with the Graph**:
 
    * Click nodes and edges to view semantic details in the sidebar.
+   ![Graph Example](UI/KG_Visualization.PNG)
 
 ---
 
