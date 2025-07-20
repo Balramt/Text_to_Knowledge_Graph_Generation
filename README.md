@@ -131,12 +131,12 @@ We can clearly see that **LLama 3-8B** and **Mistral** consistently outperform t
     │       │       └── baseline_statistics/
     │       ├── Llama-8B/
     │       │   ├── llm_response/
-    │       │   └── evaluation_statistics/
-    |       |   └── evaluation_statistics/
+    │       │        └── evaluation_statistics/
+    |       |        └── baseline_statistics/
     │       └── Mistral-7B/
     │           ├── llm_response/
-    │           └── evaluation_statistics/
-    |           └── evaluation_statistics/
+    │                └── evaluation_statistics/
+    |                └── baseline_statistics/
     │
     └── wikidata/
         ├── ontology/
@@ -153,9 +153,12 @@ We can clearly see that **LLama 3-8B** and **Mistral** consistently outperform t
             │       └── baseline_statistics/
             ├── Llama-8B/
             │   ├── llm_response/
-            │   └── evaluation_statistics/
+            │        └── evaluation_statistics/
+            │        └── baseline_statistics/ 
             └── Mistral-7B/
                 ├── llm_response/
                 └── evaluation_statistics/
+                    └── evaluation_statistics/
+                    └── baseline_statistics/
 
 ```
