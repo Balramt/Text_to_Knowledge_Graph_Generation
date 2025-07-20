@@ -66,14 +66,12 @@ The models are loaded via HuggingFace’s `transformers` with `torch_dtype=torch
 
    * Format: `.jsonl`
    * Each line should look like:
-
     ```json
 {
   "id": "ont_film_test_1",
   "sent":"Super Capers is a 98 minute English movie that was distributed by Roadside Attractions and Lionsgate. It was directed by Ray Griggs and edited by Stacy Katzman.The budget was $2,000,000."
 }
 ```
-
 2. **Upload Ontology File**: Please upload the ontology corresponding to the domain of the prompt.[Film Ontology](data/dbpedia/ontology/19_film_ontology.json)
 
 3. **Select a Model**:
