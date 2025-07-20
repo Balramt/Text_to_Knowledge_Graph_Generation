@@ -17,7 +17,7 @@ This repository is part of the research project on **Leveraging Large Language M
 
 **📈 Output Graph:**
 
-![Graph Example](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/assets/music_ontology_graph_example.png)
+![Graph Example](UI/KG_Visualization.PNG)
 *(This graph illustrates the extracted RDF triples aligned with the ontology)*
 
 ---
