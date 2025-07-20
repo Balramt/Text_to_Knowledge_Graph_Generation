@@ -57,42 +57,51 @@ The models are loaded via HuggingFace’s `transformers` with `torch_dtype=torch
   * Edges represent relations.
   * **Bidirectional edges** are merged and highlighted for clarity.
 * Nodes and edges are color-coded using consistent hashing.
-
 ---
 
 ## 💡 How to Use
 
-1. **Upload Prompt File**:
+1. **Upload Prompt File**
 
-   * Format: `.jsonl`
-   * Each line should look like:
-    ```json
-{
-  "id": "ont_film_test_1",
-  "sent":"Super Capers is a 98 minute English movie that was distributed by Roadside Attractions and Lionsgate. It was directed by Ray Griggs and edited by Stacy Katzman.The budget was $2,000,000."
-}
-```
-2. **Upload Ontology File**: Please upload the ontology corresponding to the domain of the prompt.[Film Ontology](data/dbpedia/ontology/19_film_ontology.json)
+   * **Format**: `.jsonl` (JSON Lines)
+   * **Structure**: Each line should contain a JSON object with an `id` and a `sent` field.
 
-3. **Select a Model**:
+   **Example:**
 
-   * LLaMA 3 or Mistral 7B
+   ```json
+   {
+     "id": "ont_film_test_1",
+     "sent": "Super Capers is a 98 minute English movie that was distributed by Roadside Attractions and Lionsgate. It was directed by Ray Griggs and edited by Stacy Katzman. The budget was $2,000,000."
+   }
+   ```
 
-4. **Click "Run Extraction"**:
+2. **Upload Ontology File**
 
-   * Extracts triples from the input prompts.
+   * Upload the ontology file corresponding to the domain of the prompt.
+   * **Example**: [Film Ontology](data/dbpedia/ontology/19_film_ontology.json)
 
-5. **Choose Output View**:
+3. **Select a Model**
 
-   * **Table View**: Shows all extracted triples in a table.
-   * **Graph View**: Renders an interactive RDF-style knowledge graph.
+   * Choose one of the supported models:
 
-6. **Interact with the Graph**:
+     * **LLaMA 3**
+     * **Mistral 7B**
 
-   * Click nodes and edges to view semantic details in the sidebar.
+4. **Click "Run Extraction"**
+
+   * Initiates the triple extraction process based on the uploaded prompt and ontology.
+
+5. **Choose Output View**
+
+   * **Table View**: Displays all extracted triples in a structured table.
+   * **Graph View**: Visualizes the triples as an interactive RDF-style knowledge graph.
+
+6. **Interact with the Graph**
+
+   * Click on nodes and edges to explore semantic details in the sidebar.
+
    ![Graph Example](UI/KG_Visualization.PNG)
 
----
 
 ## 🧬 Code Overview
 
