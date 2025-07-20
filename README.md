@@ -18,10 +18,6 @@ This repository is part of the research project on **Leveraging Large Language M
 **📈 Output Graph:**
 
 ![Graph Example](UI/KG_Visualization.PNG)
-*(This graph illustrates the extracted RDF triples aligned with the ontology)*
-
----
-
 ---
 ## 🧠 `src/` – Main Source Directory
 The `src` directory contains all the code for running LLMs, generating RDF triples, and evaluating outputs. It is organized into submodules for evaluation and model generation.
