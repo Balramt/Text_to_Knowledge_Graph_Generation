@@ -20,8 +20,9 @@ This repository is part of the research project on **Leveraging Large Language M
 ![Graph Example](UI/KG_Visualization.PNG)
 ---
 ## 🧠 `src/` – Main Source Directory
+
 The `src` directory contains all the code for running LLMs, generating RDF triples, and evaluating outputs. It is organized into submodules for evaluation and model generation.
----
+
 ### 📂 [`evaluation`](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/src/evaluation)
 Scripts to evaluate the triples extracted from LLM responses.
 * 📘 **[Baseline Evaluation](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/src/evaluation/Baseline_evaluation.ipynb)**
