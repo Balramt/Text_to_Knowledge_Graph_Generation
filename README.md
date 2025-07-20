@@ -39,7 +39,7 @@ LLM-based triple generation modules.
 
 ## 📦 Data Structure Overview
 
-### 🗂️ `[Wikidata-TekGen](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata)`
+### 🗂️ [Wikidata-TekGen](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata)
 * [Wikidata-TekGen](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata)
 * **Ontologies (10)**: [ontologies](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/ontology) – Ontology files used for triple validation.
 * **Ground Truth**: [ground\_truth](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/ground_truth) – Gold standard triples for evaluation.
