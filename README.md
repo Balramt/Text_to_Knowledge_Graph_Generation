@@ -80,22 +80,13 @@ LLM-based triple generation modules.
 * [llm\_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B/llm_response) – Raw responses + extracted triples
 * [eval\_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B/evaluation_statistics) – Ontology-level + aggregated results
 
-## 📊 Wilcoxon Signed-Rank Test: LLM Comparison on Wikidata and DBpedia
+## Wilcoxon Signed-Rank Test: LLM Comparison on improvised and baseline
 
-We conducted pairwise statistical significance tests using the **Wilcoxon Signed-Rank Test** to compare the performance of large language models (LLMs) — **LLama 3-8B**, **Mistral**, **Alpaca-LoRA-13B**, and **Vicuna** — on two datasets: **Wikidata** and **DBpedia**. 
+We conducted pairwise statistical significance tests using the **Wilcoxon Signed-Rank Test** to compare the performance of large language models (LLMs) — **LLama 3-8B**, **Mistral**, and baselines models **Alpaca-LoRA-13B**, and **Vicuna** — on two datasets: **Wikidata** and **DBpedia**. 
 
-Two types of evaluations were used:
-- **Improvised Evaluation**: Sample-wise F1 scores
-- **Baseline Evaluation**: Per-domain average F1 scores
-
+Two types of evaluations were used: **Improvised Evaluation** and **Baseline Evaluation**
 ---
-
-### 📁 Dataset: [Wikidata](#)
 We can clearly see that **LLama 3-8B** and **Mistral** consistently outperform the baseline models **Alpaca-LoRA-13B** and **Vicuna** across both evaluation methods.
-
-#### 🔍 Wilcoxon Signed-Rank Test on Improvised Evaluation (Wikidata)
-
-
 ---
 ## 📁 Folder Tree (Example)
 ```
