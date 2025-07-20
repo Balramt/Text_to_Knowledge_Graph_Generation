@@ -1,5 +1,5 @@
 # Leveraging Large Language Models for KG Construction
----
+
 This repository is part of the research project on **Leveraging Large Language Models for KG Construction** using Large Language Models (LLMs). The benchmark aims to evaluate LLMs for extracting knowledge graph triples from natural language while adhering to a given ontology. The focus is on key evaluation metrics such as precision, recall, F1-score, ontology conformance, and hallucination rates.
 
 ## 🧪 Example
@@ -38,7 +38,7 @@ LLM-based triple generation modules.
 ---
 
 ## 📦 Data Structure Overview
----
+
 ### 🗂️ `wikidata_tekgen`
 * [Wikidata-TekGen](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata)
 * **Ontologies (10)**: [ontologies](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/ontology) – Ontology files used for triple validation.
@@ -58,7 +58,7 @@ LLM-based triple generation modules.
 ##### 🔹 [Mistral-7B](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Mistral-7B)
 * [llm\_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Mistral-7B/llm_response) – Raw responses + extracted triples
 * [eval\_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata/baselines/Mistral-7B/evaluation_statistics) – Ontology-level + aggregated results
----
+
 
 ### 🗂️ `dbpedia_webnlg`
 * [DBpedia-Webnlg](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia)
