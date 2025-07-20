@@ -79,7 +79,7 @@ LLM-based triple generation modules.
 * [llm\_responses](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B/llm_response) – Raw responses + extracted triples
 * [eval\_metrics](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia/baselines/Mistral-7B/evaluation_statistics) – Ontology-level + aggregated results
 
-## Wilcoxon Signed-Rank Test: LLM Comparison on Improvised and Baseline
+## Wilcoxon Signed-Rank Test: LLM Comparison on Improvised and Baseline evaluations script by statistical significance tests
 
 We conducted pairwise statistical significance tests using the **Wilcoxon Signed-Rank Test** to compare the performance of large language models (LLMs) — **LLama 3-8B**, **Mistral**, and baseline models **Alpaca-LoRA-13B**, and **Vicuna** — on two datasets: **[Wikidata-TekGen](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/wikidata)** and **[DBpedia-Webnlg](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/tree/main/data/dbpedia)**. 
 
