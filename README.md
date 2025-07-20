@@ -89,7 +89,7 @@ Two types of evaluations were used:
 - **[Baseline Evaluation](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/src/evaluation/Baseline_evaluation.ipynb)**
 ---
 
-We can clearly see that **LLama 3-8B** and **Mistral** consistently outperform the baseline models **Alpaca-LoRA-13B** and **Vicuna** across both evaluation methods on both datasets**[DBpedia-Webnlg-Wilcoxon-test-result](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/evaluation_table/dbpedia_evaluation_result/Wilcoxon_rank_test_dbpedia.ipynb)** and **[Wikidata-TekGen-Wilcoxon-test-result](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/evaluation_table/wikidata_evaluation_result/wilcoxon_rank_test_wikidata.ipynb)**.
+We can clearly see that **LLama 3-8B** and **Mistral** consistently outperform the baseline models **Alpaca-LoRA-13B** and **Vicuna** across both evaluation methods on both datasets [DBpedia-Webnlg-Wilcoxon-test-result](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/evaluation_table/dbpedia_evaluation_result/Wilcoxon_rank_test_dbpedia.ipynb) and **[Wikidata-TekGen-Wilcoxon-test-result](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/evaluation_table/wikidata_evaluation_result/wilcoxon_rank_test_wikidata.ipynb)**.
 
 ## 📁 Folder Tree (Example)
 ```
