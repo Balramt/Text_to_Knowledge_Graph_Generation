@@ -95,6 +95,14 @@ LLM-based triple generation modules.
 │       ├── Llama3_with_batch_without_quant.ipynb
 │       └── Mistral_Batch.ipynb
 │
+├── evaluation_table/
+|   ├──dbpedia_ebaluation_result/
+|   |  └── Evaluation_Table_Improved.md
+|   |  └── Evaluation_Table_baseline.md
+|   ├──dbpedia_ebaluation_result/
+|      └── Evaluation_Table_Improved.md
+|      └── Evaluation_Table_baseline.md  
+|
 └── data/
     ├── dbpedia/
     │   ├── ontology/
@@ -112,9 +120,11 @@ LLM-based triple generation modules.
     │       ├── Llama-8B/
     │       │   ├── llm_response/
     │       │   └── evaluation_statistics/
+    |       |   └── evaluation_statistics/
     │       └── Mistral-7B/
     │           ├── llm_response/
     │           └── evaluation_statistics/
+    |           └── evaluation_statistics/
     │
     └── wikidata/
         ├── ontology/
