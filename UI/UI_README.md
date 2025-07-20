@@ -99,7 +99,7 @@ The models are loaded via HuggingFace’s `transformers` with `torch_dtype=torch
 6. **Interact with the Graph**
 
    * Click on nodes and edges to explore semantic details in the sidebar.
-   **📈 Output Graph:**
+     
    ![Graph Example](https://github.com/Balramt/Text_to_Knowledge_Graph_Generation/blob/main/UI/KG_Visualization.PNG)
 
 
